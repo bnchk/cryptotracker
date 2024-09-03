@@ -8,6 +8,15 @@ Not intended to be work of art, just simple colour coded guidance of what to che
 * There are two banks of numbers, to cover 2 entities (eg personal/company/other person etc)<br>
 * Colour bands losses/gains by percent/proportion of portfolio<br>
 * If API lookup fails, will colour current price cell red (initial Cardano state without Maestro api key in code)<br>
+<br>
+Ends up like this, just hopefully with more green:<br>
+<br>
+<p float="left">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/workingmostly.png" width="95%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<br>
 
 ## Link to copy from
 **NB Tokens/figures are testing samples only/not representative of any opinion/reality!!**<br><br>
@@ -39,9 +48,9 @@ Create Script Project:<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 <br>
-Add Blank Script file + replace template code with raw copy of:<br>
+Add Blank Script file + replace template code with raw copy of<br>
 
-[CryptoTracker.gs](CryptoTracker.gs)
+[CryptoTracker.gs](CryptoTracker.gs) end of code will look like garble but is lookup data for coingecko token translations.
 
 <br>
 <br>
@@ -71,7 +80,7 @@ Populate grey shaded columns:<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 <br>
-With Maestro lookup running:<br>
+With Maestro lookup running, red columns replaced with values:<br>
 <br>
 <p float="left">
   &nbsp;&nbsp;&nbsp;&nbsp;
